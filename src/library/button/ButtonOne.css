@@ -1,7 +1,13 @@
 .main {
-    background-color: blue;
+    background-color: rgb(203, 203, 203);
     will-change: filter;
     transition: filter 300ms;
+    border-radius: 0;
+    color: black;
+    font-weight: 800;
+    font-size: larger;
+    padding: 15px;
+    min-width: 180px;
 }
 
 .main:hover {
