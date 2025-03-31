@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // new imports
 import ButtonOne from './library/button/buttonOne'
+import Card from './library/Card/Card'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      <Card />
       <ButtonOne />
     </>
   )

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.cardMain {
+    background-color: rgb(255, 34, 156);
+    height: 10rem;
+}
