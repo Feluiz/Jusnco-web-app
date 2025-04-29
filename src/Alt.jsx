@@ -1,13 +1,13 @@
-import { NavLink, Link } from 'react-router'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './Alt.css'
 // new imports
 import ButtonOne from './library/button/buttonOne'
 import Card from './library/Card/Card'
 
 
-function App() {
+function Alt() {
 
   return (
     <>
@@ -20,16 +20,8 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <Card />
-      <ButtonOne />
-      <NavLink
-        to="/first"
-        
-      >
-        Home
-      </NavLink>
     </>
   )
 }
 
-export default App
+export default Alt
