@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './CustomHeader.css';
 import logo from '../../../imgs/main-logo.png';
+import { NavLink } from 'react-router';
 
 const CustomHeader = (props) => {
     const [open, setOpen] = useState(true);
@@ -55,12 +56,12 @@ const CustomHeader = (props) => {
                 <div className="change bar3"></div>
             </div>
             <div className={dropopen}>
-                <a onClick={clickedOption} className='dropdown-option'>Inicio</a>
+                <NavLink to="/" className='dropdown-option'>Inicio</NavLink>
                 <a onClick={clickedOption2} className='dropdown-option'>Nosotros</a>
                 <a onClick={clickedOption3} className='dropdown-option'>Visítanos</a>
             </div>
             <nav className='nav-bar'>
-                <a onClick={clickedOption} className='navbar-option'>Inicio</a>
+                <NavLink to="/" onClick={clickedOption} className='navbar-option'>Inicio</NavLink>
                 <a onClick={clickedOption2} className='navbar-option'>Nosotros</a>
                 <a onClick={clickedOption3__alt} className='navbar-option'>Visítanos</a>
             </nav>

@@ -1,7 +1,8 @@
 import './ProductShowcase.css';
-import { section_shipshield } from '../CatalogDatabase';
+import { section_shipshield } from '../CatalogDatabase.jsx';
 
 const ProductShowcase = () => {
+    
     return (
         <>
             <div className='product-showcase'>

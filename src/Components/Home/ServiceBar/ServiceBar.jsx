@@ -22,14 +22,16 @@ const ServiceBar = (tabData) => {
                 <nav className='sevice-bar'>
                     <ul className='service-list'>
                         <li onClick={openService} id='ecotact' className='service-container'>
+                        <NavLink to="/ecotact" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img1} className='bg-img' />
                             <div className='service-hover'>
                                 <img src={img11} alt='img-1' className='service-img' />
                             </div>
+                        </NavLink>
                         </li>
                         <li id='finca'  onClick={openService.bind(this)}>
-                            <NavLink to="/ecotact" className='service-container'>
+                            <NavLink to="/finca" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img3} className='bg-img-esp' />
                             <div className='service-hover'>
@@ -38,11 +40,13 @@ const ServiceBar = (tabData) => {
                             </NavLink>
                         </li>
                         <li id='yuteco' className='service-container' onClick={openService}>
+                        <NavLink to="/yuteco" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img2} className='bg-img' />
                             <div className='service-hover'>
                                 <img src={img22} alt='img-2' className='service-img' />
                             </div>
+                        </NavLink>
                         </li>
                     </ul>
                 </nav>

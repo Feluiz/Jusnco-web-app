@@ -1,9 +1,34 @@
+import containerLiner from '../../imgs/ecotactCatalog/container-liner.png';
+import paraMuestreo from '../../imgs/ecotactCatalog/para-muestreo.webp';
+import sample200g from '../../imgs/ecotactCatalog/sample200g.webp';
+import sample500g from '../../imgs/ecotactCatalog/sample500g.webp';
+import sample1k from '../../imgs/ecotactCatalog/sample1k.webp';
+import sample2k from '../../imgs/ecotactCatalog/sample2k.webp';
+import sample5k from '../../imgs/ecotactCatalog/sample5k.webp';
+import exportSample from '../../imgs/ecotactCatalog/export-sample.png';
+import ecotact25 from '../../imgs/ecotactCatalog/ecotact25.webp';
+import ecotact40 from '../../imgs/ecotactCatalog/ecotact40.webp';
+import ecotact50 from '../../imgs/ecotactCatalog/ecotact50.webp';
+import ecotact80 from '../../imgs/ecotactCatalog/ecotact80.webp';
+import vacuumSample from '../../imgs/ecotactCatalog/vacuum-sample.png';
+import vacuum7 from '../../imgs/ecotactCatalog/vacuum7.webp';
+import vacuum15 from '../../imgs/ecotactCatalog/vacuum15.webp';
+import vacuum20 from '../../imgs/ecotactCatalog/vacuum20.webp';
+import specialSample from '../../imgs/ecotactCatalog/special-sample.png';
+import troiseal from '../../imgs/ecotactCatalog/troiseal.webp';
+import pentaPack from '../../imgs/ecotactCatalog/penta-pack.webp';
+import farmerElite from '../../imgs/ecotactCatalog/farmer-elite.webp';
+import supergreen from '../../imgs/ecotactCatalog/supergreen.webp';
+import ecotactJumbo from '../../imgs/ecotactCatalog/ecotact-jumbo.webp';
+
+
+
 export const section_shipshield = [
     {
         key: 'ship_1',
         title: 'Ecotact Ship Shield Liner Hermético para Contenedor',
         info: 'Ship Shield liner hermético de alta tecnología para contenedor está diseñado para almacenar y transportar granos en una estructura herméticamente sellada. Elaborados en una instalación de habitación limpia y bajo los estándares de la FDA, ISO 22000:2018, ISO 9001:2015.',
-        targetImg: require('../../imgs/ecotactCatalog/container-liner.png'),
+        targetImg: containerLiner,
         price: 'US$ 177.00'
     }
 ]
@@ -12,7 +37,7 @@ export const section_sampler_sample = [
     {
         key: 'sampler-sample',
         title: 'Ecotact Muestreo',
-        targetImg: require('../../imgs/ecotactCatalog/para-muestreo.webp'),
+        targetImg: paraMuestreo,
         sampleInfo: 'Bolsas para muestreo con sellado hermético tipo Zipper resellable de alto rendimiento que permiten el sellado alternativo con calor.'
     }
 ]
@@ -21,7 +46,7 @@ export const section_sampler = [
     {
         key: 'sampler200g',
         title: 'Ecotact 200g',
-        targetImg: require('../../imgs/ecotactCatalog/sample200g.webp'),
+        targetImg: sample200g,
         price: 9,
         list_items: {
             key: 'dets200',
@@ -35,7 +60,7 @@ export const section_sampler = [
     {
         key: 'sampler500g',
         title: 'Ecotact 500g',
-        targetImg: require('../../imgs/ecotactCatalog/sample500g.webp'),
+        targetImg: sample500g,
         price: 12,
         list_items: {
             key: 'dets500',
@@ -49,7 +74,7 @@ export const section_sampler = [
     {
         key: 'sampler1k',
         title: 'Ecotact 1k',
-        targetImg: require('../../imgs/ecotactCatalog/sample1k.webp'),
+        targetImg: sample1k,
         price: 17,
         list_items: {
             key: 'dets1k',
@@ -63,7 +88,7 @@ export const section_sampler = [
     {
         key: 'sampler2k',
         title: 'Ecotact 2k',
-        targetImg: require('../../imgs/ecotactCatalog/sample2k.webp'),
+        targetImg: sample2k,
         price: 20,
         list_items: {
             key: 'dets2k',
@@ -77,7 +102,7 @@ export const section_sampler = [
     {
         key: 'sampler5k',
         title: 'Ecotact 5k',
-        targetImg: require('../../imgs/ecotactCatalog/sample5k.webp'),
+        targetImg: sample5k,
         price: 25,
         list_items: {
             key: 'dets5k',
@@ -93,7 +118,7 @@ export const section_export_sample = [
     {
         key: 'export-sample',
         title: 'Ecotact Exportación',
-        targetImg: require('../../imgs/ecotactCatalog/export-sample.png'),
+        targetImg: exportSample,
         sampleInfo: 'Una serie de bolsas herméticas diseñadas para la exportación de café verde, cacao y todo tipo de producto agrícola. Con 9 capas de polietileno de grado alimenticio, garantizan la frescura y el sabor óptimos al proteger de factores externos.'
     }
 ]
@@ -102,7 +127,7 @@ export const section_export = [
     {
         key: 'export25',
         title: 'Ecotact 25',
-        targetImg: require('../../imgs/ecotactCatalog/ecotact25.webp'),
+        targetImg: ecotact25,
         price: 0,
         list_items: {
             key: 'dets25',
@@ -116,7 +141,7 @@ export const section_export = [
     {
         key: 'export40',
         title: 'Ecotact 40',
-        targetImg: require('../../imgs/ecotactCatalog/ecotact40.webp'),
+        targetImg: ecotact40,
         price: 0,
         list_items: {
             key: 'dets40',
@@ -130,7 +155,7 @@ export const section_export = [
     {
         key: 'export50',
         title: 'Ecotact 50',
-        targetImg: require('../../imgs/ecotactCatalog/ecotact50.webp'),
+        targetImg: ecotact50,
         price: 0,
         list_items: {
             key: 'dets50',
@@ -144,7 +169,7 @@ export const section_export = [
     {
         key: 'export80',
         title: 'Ecotact 80',
-        targetImg: require('../../imgs/ecotactCatalog/ecotact80.webp'),
+        targetImg: ecotact80,
         price: 0,
         list_items: {
             key: 'dets80',
@@ -160,7 +185,7 @@ export const section_vacuum_sample = [
     {
         key: 'vacuum-sample',
         title: 'Ecotact Alto Vacío',
-        targetImg: require('../../imgs/ecotactCatalog/vacuum-sample.png'),
+        targetImg: vacuumSample,
         sampleInfo: 'Las bolsas con sellado al alto vacío de Ecotact destacan por sus innovadoras 9 capas de polietileno de grado alimenticio. Una solución avanzada que brinda todas las ventajas del sellado al alto vacío para la preservación máxima de la frescura y calidad de tus productos agrícolas .'
     }
 ]
@@ -169,7 +194,7 @@ export const section_vacuum = [
     {
         key: 'vacuum7',
         title: 'Ecotact 7',
-        targetImg: require('../../imgs/ecotactCatalog/vacuum7.webp'),
+        targetImg: vacuum7,
         price: 0,
         list_items: {
             key: 'detsv7',
@@ -183,7 +208,7 @@ export const section_vacuum = [
     {
         key: 'vacuum15',
         title: 'Ecotact 15',
-        targetImg: require('../../imgs/ecotactCatalog/vacuum15.webp'),
+        targetImg: vacuum15,
         price: 0,
         list_items: {
             key: 'detsv15',
@@ -197,7 +222,7 @@ export const section_vacuum = [
     {
         key: 'vacuum20',
         title: 'Ecotact 20',
-        targetImg: require('../../imgs/ecotactCatalog/vacuum20.webp'),
+        targetImg: vacuum20,
         price: 0,
         list_items: {
             key: 'detsv20',
@@ -213,7 +238,7 @@ export const section_special_sample = [
     {
         key: 'ecotact-special',
         title: 'Ecotact Especiales',
-        targetImg: require('../../imgs/ecotactCatalog/special-sample.png'),
+        targetImg: specialSample,
         sampleInfo: 'Nuestros productos especiales, diseñados pensando en sus necesidades desde la finca hasta el tueste.'
     }
 ]
@@ -222,7 +247,7 @@ export const section_special = [
     {
         key: 'special-troiseal',
         title: 'Ecotact Troiseal',
-        targetImg: require('../../imgs/ecotactCatalog/troiseal.webp'),
+        targetImg: troiseal,
         price: 0,
         list_items: {
             key: 'detstroi',
@@ -236,7 +261,7 @@ export const section_special = [
     {
         key: 'specialPenta',
         title: 'Ecotact Pentapack',
-        targetImg: require('../../imgs/ecotactCatalog/penta-pack.webp'),
+        targetImg: pentaPack,
         price: 0,
         list_items: {
             key: 'detsPenta',
@@ -250,7 +275,7 @@ export const section_special = [
     {
         key: 'specialFarmer',
         title: `Ecotact Farmer D'Elite`,
-        targetImg: require('../../imgs/ecotactCatalog/farmer-elite.webp'),
+        targetImg: farmerElite,
         price: 0,
         list_items: {
             key: 'detsFarmer',
@@ -264,7 +289,7 @@ export const section_special = [
     {
         key: 'specialSupergreen',
         title: 'Ecotact Supergreen',
-        targetImg: require('../../imgs/ecotactCatalog/supergreen.webp'),
+        targetImg: supergreen,
         price: 0,
         list_items: {
             key: 'detsSuper',
@@ -278,7 +303,7 @@ export const section_special = [
     {
         key: 'specialJumbo',
         title: 'Ecotact FIBC',
-        targetImg: require('../../imgs/ecotactCatalog/ecotact-jumbo.webp'),
+        targetImg: ecotactJumbo,
         price: 0,
         list_items: {
             key: 'detsJumbo',

@@ -1,8 +1,13 @@
+import yute20 from '../../imgs/yuteco/yute20.png'
+import yute35 from '../../imgs/yuteco/yute35.png'
+import yute45 from '../../imgs/yuteco/yute45.png'
+import yute69 from '../../imgs/yuteco/yute69.png'
+
 const section_sacks = [
     {
         key: 'cap20',
         title: '15 - 20 kgs',
-        targetImg: require('../../imgs/yuteco/yute20.png'),
+        targetImg: yute20,
         price: 9,
         list_items: {
             key: 'saco20',
@@ -16,7 +21,7 @@ const section_sacks = [
     {
         key: 'cap35',
         title: '30 - 35 kgs',
-        targetImg: require('../../imgs/yuteco/yute35.png'),
+        targetImg: yute35,
         price: 12,
         list_items: {
             key: 'saco35',
@@ -30,7 +35,7 @@ const section_sacks = [
     {
         key: 'cap45',
         title: '35 - 45 kgs',
-        targetImg: require('../../imgs/yuteco/yute45.png'),
+        targetImg: yute45,
         price: 20,
         list_items: {
             key: 'saco45',
@@ -44,7 +49,7 @@ const section_sacks = [
     {
         key: 'cap69',
         title: '60 - 69 kgs',
-        targetImg: require('../../imgs/yuteco/yute69.png'),
+        targetImg: yute69,
         price: 25,
         list_items: {
             key: 'saco69',
