@@ -1,0 +1,84 @@
+.elementWrap {
+    border: 1px solid rgb(230, 255, 201);
+    width: 12.5rem;
+    height: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: rgba(0, 85, 0, 0.250);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: flex-end;
+    position: relative;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    
+}
+
+.elementWrap:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.32);
+    transition-duration: 0.3s;
+    bottom: 5px;
+}
+
+.elementImg {
+    align-self: center;
+    justify-content: center;
+    max-height: 10rem;
+    position: absolute;
+    top: 25px;
+    max-width: 100%;
+}
+
+.elementDesc {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    justify-items: flex-end;
+    margin-bottom: 5px;
+    bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price-container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.price-tag {
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(43, 146, 49);
+    margin: 0 auto;
+}
+
+@media(max-width: 44rem) {
+    .elementWrap {
+        width: 10rem;
+        height: 13.5rem;
+        justify-content: flex-end;
+    }
+}
+
+@media(max-width: 30rem) {
+    .elementWrap {
+        border: 1px solid rgb(230, 255, 201);
+        width: 12.5rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        background-color: rgba(0, 85, 0, 0.250);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        justify-content: flex-end;
+        position: relative;
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+}

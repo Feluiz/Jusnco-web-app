@@ -1,0 +1,44 @@
+.mainBackBtn {
+    padding: 10px 10px;
+    height: auto;
+    top: 10rem;
+    background-color: rgba(28,117,58,255);
+    position: sticky;
+    cursor: pointer;
+    text-align: center;
+    font-size: x-large;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    z-index: 10;
+}
+
+.btn-hover {
+    transition: .5s ease;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    transform: translate(0%, 0.5%);
+}
+
+.btn-hover:hover  {
+    opacity: 1;
+}
+
+@media(max-width: 30rem) {
+    .mainBackBtn {
+        padding: 10px 10px;
+        height: auto;
+        top: 20rem;
+        max-width: 9rem;
+        background-color: rgba(28,117,58,255);
+        position: sticky;
+        cursor: pointer;
+        text-align: center;
+        font-size: larger;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: white;
+        z-index: 10;
+    }
+}

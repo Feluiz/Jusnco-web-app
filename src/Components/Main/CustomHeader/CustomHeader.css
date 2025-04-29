@@ -1,0 +1,114 @@
+.App-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  z-index: 499;
+}
+
+.App-logo {
+  max-height: 5rem;
+  pointer-events: none;
+  margin: 0.5rem;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  display: none;
+  position: relative;
+}
+
+/* burger menu */
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* end burger menu */
+
+.nav-bar {
+  display: flex;
+  color: #173519;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  transition: 0.4s;
+}
+
+.navbar-option {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  font-size: xx-large;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 50rem) {
+  .container {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+}
+
+.dropdownclosed {
+  display: none;
+}
+
+.nav-bar-dropdown {
+  align-items: center;
+  background-color: #27472a;
+  position: absolute;
+  z-index: 9999;
+  transform: translate(100%, 65%);
+}
+
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  margin: 0.5em;
+  min-height: 2rem;
+  padding: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  color: #27472a;
+  background-color: aliceblue;
+}
+
+@media(max-width:30rem) {
+  .nav-bar-dropdown {
+    transform: translate(60%, 65%);
+  }
+}

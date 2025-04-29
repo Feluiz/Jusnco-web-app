@@ -1,0 +1,139 @@
+.social-card {
+    margin: auto;
+    margin-bottom: 3rem;
+    max-width: 80%;
+}
+
+.social-media-top {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D);
+    border-radius: 10rem;
+    margin: 1rem auto;
+    max-width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.instagram-logo {
+    max-height: 7.5rem;
+    padding: 1rem;
+    padding-left: 5rem;
+}
+
+h5 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: white;
+    padding: 0;
+    padding-right: 1rem;
+    margin: 0;
+}
+
+.social-media {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.social-embed1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 15rem;
+    max-height: 13rem;
+
+}
+
+.social-embed2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.3em;
+    margin-bottom: 15rem;
+    max-height: 13rem;
+}
+
+.social-embed3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 15rem;
+    max-height: 13rem;
+}
+
+.layover {
+    position: absolute;
+    width: 327px;
+    height: 3rem;
+    z-index: 99;
+    background-color: white;
+}
+
+@media (min-width:2000px) {
+    .social-media-title {
+        font-size: 4em;
+    }
+}
+
+@media (max-width:1288px) {
+    .social-embed1 {
+        z-index: 0;
+    }
+
+    .social-embed2 {
+        transform: translatey(0.5rem);
+    }
+
+    .social-embed3 {
+        display: none;
+    }
+
+    .layover {
+        max-height: 3rem;
+        max-width:23rem;
+        z-index: 99;
+    }
+}
+
+@media (max-width:818px) {
+    .embedding {
+        width: 320px;
+    }
+
+    .layover {
+        display: none;
+    }
+
+    .social-embed1 {
+        display: none;
+    }
+
+    .social-embed2 {
+        transform: translateY(0);
+    }
+
+    .social-embed3 {
+        display: none;
+    }
+
+    h5 {
+        font-size: 2em;
+        padding-right:.5rem;
+    }
+
+    .instagram-logo {
+        max-height: 5rem;
+        padding-left: 2em;
+    }
+}
+
+@media (max-width: 450px) {
+    h5 {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,36 @@
+.contact-button {
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+    max-width: 6rem;
+    max-height: 5rem;
+    z-index: 999;
+}
+
+.contact-btn-img {
+    height: 6em;
+}
+
+@media(max-width: 60rem) {
+    .contact-button {
+        bottom: 1rem;
+        z-index: 99;
+    }
+
+    .contact-btn-img {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media(max-height:19rem) {
+    .contact-button {
+        bottom: .5rem;
+        z-index: 99;
+    }
+
+    .contact-btn-img {
+        height: 4rem;
+        width: 4rem;
+    }
+}

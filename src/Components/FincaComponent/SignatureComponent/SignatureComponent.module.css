@@ -1,0 +1,112 @@
+.signatureHeader {
+    margin-bottom: 0rem;   
+}
+
+.processesContainer {
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.signatureName {
+    margin: 0 auto;
+}
+
+.processesList {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.processItem {
+    position: relative;
+    background: black;
+}
+
+.processImg {
+    max-width: 25rem;
+    opacity: .75;
+}
+
+.processesText {
+    font-size: x-large;
+    font-style: italic;
+    font-family: Trebuchet 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+}
+
+.coffeeProcess {
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+@media(max-width: 76rem) {
+    .processImg {
+        max-width: 15rem;
+    }
+
+    .coffeeProcess {
+        font-size: xx-large;
+        font-weight: 700;
+        top: 30%;
+        left: 30%;
+    }
+}
+
+@media(max-width: 47rem) {
+    .signatureName {
+        max-width: 20rem;
+    }
+
+    .processImg {
+        max-width: 10rem;
+    }
+
+    .coffeeProcess {
+        font-size: xx-large;
+        font-weight: 700;
+        top: 20%;
+        left: 20%;
+    }
+}
+
+@media(max-width: 31rem) {
+    .signatureName {
+        max-width: 20rem;
+    }
+
+    .processImg {
+        max-width: 7.5rem;
+    }
+
+    .coffeeProcess {
+        font-size: large;
+        font-weight: 700;
+        top: 30%;
+        left: 25%;
+    }
+}
+
+@media(max-width: 24rem) {
+    .signatureName {
+        max-width: 20rem;
+    }
+
+    .processImg {
+        max-width: 6.5rem;
+    }
+
+    .coffeeProcess {
+        font-size: large;
+        font-weight: 700;
+        top: 25%;
+        left: 20%;
+    }
+}

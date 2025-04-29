@@ -1,0 +1,122 @@
+.information-section {
+    width: 34%;
+    height: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subtitle-1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: black;
+    margin: 0;
+    margin-left: -2rem;
+}
+
+.subtitle-2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: black;
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ecotact-descrp-text {
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2.5rem auto;
+    max-width: 70%;
+}
+
+.ecotact-descrp-text-alt {
+    display: none;
+}
+
+.attributes-title {
+    border-radius: 2rem;
+}
+
+.ecotact-attribute {
+    margin: .5rem auto;
+    max-height: 5rem;
+    padding: .2rem;
+    max-width: 17rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(12,106,53,0.1);
+    border-radius: 5rem;
+}
+
+.ecotact-attrImage {
+    max-height: 3.5rem;
+    max-height: 3.5rem;
+    margin-left: .25rem;
+}
+
+.ecotact-attrName {
+    font-size: large;
+    text-align: start;
+    margin-left: 1rem;
+}
+
+@media(max-width: 60rem) {
+    .information-section {
+        width: 40%;
+        margin: 1rem 1rem;
+        border-radius: 8rem;
+    }
+
+    .subtitle-1 {
+        font-size: xx-large;
+    }
+
+    .subtitle-2 {
+        font-size: x-large;
+    }
+
+    .ecotact-descrp-text {
+        font-size: large;
+    }
+}
+
+@media(max-width: 44rem) {
+    .information-section {
+        width: 66%;
+        margin: 1rem auto;
+        border-radius: 5rem;
+    }
+
+    .subtitle-1 {
+        font-size: 3rem;
+        color: black;
+        margin: 0;
+    }
+    
+    .subtitle-2 {
+        font-size: 2rem;
+        color: black;
+        margin: 0;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .ecotact-descrp-text {
+        display: none;
+    }
+
+    .ecotact-descrp-text-alt {
+        display: block;
+        color: white;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 2.5rem auto;
+        max-width: 70%;
+    }
+}

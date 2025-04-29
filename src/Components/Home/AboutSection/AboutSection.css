@@ -1,0 +1,64 @@
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 15rem;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 6rem;
+}
+
+.about-title {
+    text-align: left;
+    width: 20rem;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    align-self: flex-start;
+    color: #173519;
+}
+
+.about-text {
+    text-align: justify;
+    max-width: 35rem;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-justify: inter-word;
+    color: black;
+}
+
+.award-logos {
+    margin: 4rem;
+}
+
+.award-img {
+    border-top: 1px solid #173519;
+    padding-top: 1rem;
+}
+
+h1 {
+    width: 100%;
+}
+
+@media (max-width:60rem) {
+    .about-section {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        margin: 0 auto;
+    }
+
+    .about-text {
+        margin: 0 auto;
+        margin-bottom: 5em;
+    }
+}
+
+@media(min-width:1320px) {
+    .about-text {
+        margin-bottom: 5em;
+    }
+}
