@@ -1,0 +1,83 @@
+.fincaHeader {
+    justify-content: center;
+}
+
+.fincaBody {
+    margin: 5rem auto;
+    margin-bottom: 4rem;
+}
+
+.centerText {
+    margin: -2rem auto;
+    border: 5px solid #9f7928;
+    border-top: none;
+    font-size: xx-large;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 30rem;
+}
+
+.centerText > img {
+    max-width: 15rem;
+    margin-left: 5rem;
+}
+
+.ribbonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 8px;
+}
+
+.imgCoe19 {
+    z-index: 9;
+    position: absolute;
+    bottom: 5rem;
+    max-width: 17.5rem;
+}
+
+.blueRibbon {
+    max-width: 12.5rem;
+    height: auto;
+    margin: 0 2rem;
+}
+
+.fincaHarvest {
+    margin-top: 0rem;
+}
+
+@media(max-width: 54rem) {
+    .fincaBody {
+        margin-top: 7.5rem;
+    }
+
+    .imgCoe19 {
+        max-width: 12.5rem;
+        bottom: 1rem;
+    }
+
+    .blueRibbon {
+        max-width: 7.5rem;
+    }
+}
+
+@media(max-width: 30rem) {
+    .fincaBody {
+        margin-top: 7.5rem;
+    }
+
+    .imgCoe19 {
+        max-width: 10.5rem;
+        bottom: 1rem;
+    }
+
+    .blueRibbon {
+        max-width: 5.5rem;
+    }
+
+    .centerText > img {
+        max-width: 15rem;
+        margin-left: 3rem;
+    }
+}

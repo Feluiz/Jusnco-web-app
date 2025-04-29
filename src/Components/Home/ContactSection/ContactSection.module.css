@@ -1,0 +1,81 @@
+.contactSectContainer {
+    max-width: 100%;
+    margin-bottom: -.5px;
+    background: linear-gradient(rgba(218, 237, 244, 0.600), rgba(218, 237, 244, 0.200));;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: max-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 0 2%;
+}
+
+.contactInfoContainer {
+    margin: 2rem auto;
+}
+
+.contactInfoContainer > p {
+    margin-top: 0;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    max-width: 25rem;
+    margin-top: 2rem;
+}
+
+.contactInfo > p {
+    text-align: left;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.contactItem {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding-top: .5rem;
+}
+
+.mapContainer {
+    margin: 2rem auto;
+}
+
+.mapEmbedding {
+    width: 600px;
+    border: 2.5px solid black;
+    border-radius: 2rem;
+}
+
+@media(max-width: 80rem) {
+    .mapEmbedding {
+        width: 400px;
+    }
+}
+
+@media(max-width: 51rem) {
+    .contactSectContainer {
+        flex-flow: column nowrap;
+    }
+
+    .mapEmbedding {
+        width: 30rem;
+    }
+
+    .contactInfo > p {
+        font-size: x-large;
+    }
+    
+    .contactItem {
+        font-size: x-large;
+    }
+}
+
+@media(max-width: 34rem) {
+    .mapEmbedding {
+        width: 19rem;
+    }
+}

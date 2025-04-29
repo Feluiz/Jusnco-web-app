@@ -1,0 +1,117 @@
+.contact-menu-card {
+    position: absolute;
+    bottom: 5rem;
+    right: -0.25rem;
+    max-height: 30rem;
+    max-width: 100%;
+    width: 20rem;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.contact-menu-card-closed {
+    display: none;
+}
+
+.social-instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D);
+    max-height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin: .5rem 0 .5rem 0;
+    text-decoration: none;
+}
+
+.social-instagram>p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    padding: .5rem;
+    color: white;
+}
+
+.social-facebook {
+    background: #316FF6;
+    max-height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin: .5rem 0 .5rem 0;
+    text-decoration: none;
+}
+
+.social-facebook>p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: .5rem;
+    color: white;
+}
+
+/* cambiados los titulos de los botones de contacto */
+.social-whatsapp { 
+    background: rgba(37, 211, 102);
+    max-height: fit-content ;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin: .5rem 0 .5rem 0;
+    text-decoration: none;
+}
+
+.social-whatsapp>p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: .5rem;
+    color: white;
+}
+
+.social-btn-img {
+    max-height: 5rem;
+    max-width: 4.5rem;
+}
+
+@media(max-height:25rem) {
+    .social-instagram {
+        max-height: 3.5em;
+        width: 16em;
+        padding: .5rem;
+        border-radius: 2rem;
+        margin: .25rem 0 .25rem 0;
+        align-items: center;
+    }
+
+    .social-facebook {
+        max-height: 3.5em;
+        width: 16em;
+        padding: .5rem;
+        border-radius: 2rem;
+        margin: .25rem 0 .25rem 0;
+        align-items: center;
+    }
+
+    .social-whatsapp {
+        max-height: 3.5em;
+        width: 16em;
+        padding: .5rem;
+        border-radius: 2rem;
+        margin: .25rem 0 .25rem 0;
+        align-items: center;
+    }
+
+    .social-btn-img {
+        max-height: 3.5rem;
+        max-width: 3.5rem;
+    }
+}

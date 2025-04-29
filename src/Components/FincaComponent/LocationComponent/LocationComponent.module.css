@@ -1,0 +1,27 @@
+.locationContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.locationContainer > img {
+    max-width: 50%;
+}
+
+.locationContainer > p {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 40rem;
+    margin: 1em 1em;
+}
+
+@media(max-width: 44rem) {
+    .locationContainer {
+        flex-direction: column;
+    }
+
+    .locationContainer > img {
+        max-width: 90%;
+    }
+}
