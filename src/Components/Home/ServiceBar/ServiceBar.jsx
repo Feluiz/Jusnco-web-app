@@ -1,4 +1,5 @@
 import './ServiceBar.css';
+import { NavLink } from 'react-router';
 import img1 from '../../../imgs/ecotact-logo.png';
 import img11 from '../../../imgs/gallery/backgr-1.jpg';
 import img2 from '../../../imgs/yuteco/yuteco-logo.png';
@@ -27,12 +28,14 @@ const ServiceBar = (tabData) => {
                                 <img src={img11} alt='img-1' className='service-img' />
                             </div>
                         </li>
-                        <li id='finca' className='service-container' onClick={openService.bind(this)}>
+                        <li id='finca'  onClick={openService.bind(this)}>
+                            <NavLink to="/ecotact" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img3} className='bg-img-esp' />
                             <div className='service-hover'>
                                 <img src={img33} alt='img-3' className='service-img' />
                             </div>
+                            </NavLink>
                         </li>
                         <li id='yuteco' className='service-container' onClick={openService}>
                             <div className='service-container-overlay'></div>
