@@ -8,12 +8,7 @@ import img3 from '../../../imgs/Finca/finca-logo.png';
 import img33 from '../../../imgs/gallery/finca.webp'
 
 const ServiceBar = (tabData) => {
-    const selection = tabData.onClickedTab;
 
-    const openService = (event) => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        selection(event.currentTarget.id);
-    };
 
     return (
         <>
@@ -21,7 +16,7 @@ const ServiceBar = (tabData) => {
                 <h2>Haz click para visitar nuestros servicios</h2>
                 <nav className='sevice-bar'>
                     <ul className='service-list'>
-                        <li onClick={openService} id='ecotact' className='service-container'>
+                        <li id='ecotact' className='service-container'>
                         <NavLink to="/ecotact" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img1} className='bg-img' />
@@ -30,7 +25,7 @@ const ServiceBar = (tabData) => {
                             </div>
                         </NavLink>
                         </li>
-                        <li id='finca'  onClick={openService.bind(this)}>
+                        <li id='finca'>
                             <NavLink to="/finca" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img3} className='bg-img-esp' />
@@ -39,7 +34,7 @@ const ServiceBar = (tabData) => {
                             </div>
                             </NavLink>
                         </li>
-                        <li id='yuteco' className='service-container' onClick={openService}>
+                        <li id='yuteco' className='service-container'>
                         <NavLink to="/yuteco" className='service-container'>
                             <div className='service-container-overlay'></div>
                             <img src={img2} className='bg-img' />
