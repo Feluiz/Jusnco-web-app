@@ -1,14 +1,15 @@
 .modal-card {
     background: #a4b4a5;
     margin: 0 auto;
+    padding: 1rem 1rem;
     max-width: 40rem;
-    max-height: 40rem;
+    height: 85%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border: 5px solid rgb(31, 137, 77);
     border-radius: 15px;
     align-items: center;
-    padding: 1rem;
     z-index: 799;
     position: fixed;
     top: 50%;
@@ -22,13 +23,14 @@
 
 .modal-img {
     max-height: 15rem;
+
 }
 
 .modal-data-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
     text-shadow: #548557 -2px -2px 25px, #548557 -2.5px -1px 10px, #548557 2.5px 1px 10px;
-    font-size: 5em;
+    font-size: 4em;
     margin: .5rem auto;
     line-height: 3.5rem;
     background-color: transparent;
@@ -40,6 +42,7 @@
     border: none;
     border-radius: 2rem;
     box-shadow: #548557 -2px -2px 25px, #548557 -2.5px -1px 10px, #548557 2.5px 1px 10px;
+    width: 6rem;
 }
 
 @media(max-width: 44rem) {
