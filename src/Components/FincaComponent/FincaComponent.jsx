@@ -6,7 +6,6 @@ import coeLogo from '../../imgs/Finca/coe-logo.png';
 import coe19 from '../../imgs/Finca/coe-19.png';
 import coe21 from '../../imgs/Finca/coe-21.png';
 import coe22 from '../../imgs/Finca/coe-22.png';
-import BackButton from '../Main/BackButton/BackButton';
 
 const FincaComponent = (props) => {
     return (
@@ -14,7 +13,6 @@ const FincaComponent = (props) => {
             <div className={classes.fincaHeader}>
                 <IntroComponent />
             </div>
-                <BackButton props={props}/>
             <div className={classes.fincaBody}>
                 <div className={classes.ribbonContainer}>
                     <img className={classes.blueRibbon} src={coe21} alt='2021 winner ribbon' />

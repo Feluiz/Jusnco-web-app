@@ -19,6 +19,7 @@
 .middle-panel {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 .middle-panel>p {
